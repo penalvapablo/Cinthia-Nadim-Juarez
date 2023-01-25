@@ -1,8 +1,9 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
+import NavMobile2 from './NavMobile'
 
-const Header = ({ children }) => {
+const Header = () => {
   const [mobileNav, setMobileNav] = useState(false)
   const mobileNavFn = () => {
     setMobileNav(!mobileNav)
@@ -19,8 +20,8 @@ const Header = ({ children }) => {
         </button>
 
       </div>
-      {mobileNav && <div className='h-screen flex flex-col justify-center'>{children}</div>}
-      {/* {children} */}
+      {mobileNav && <NavMobile2 mobileNavFn={mobileNavFn} />}
+
     </div>
   )
 }

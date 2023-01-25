@@ -6,7 +6,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
   return (
-    <footer className=" bg-primary">
+    <footer id='contacto' className=" bg-primary">
       <h2 className="font-sans text-title_m text-secondary font-bold text-center pt-[30px] pb-12 tracking-wide">Contacto</h2>
       <div className='w-fit h-[200px] flex flex-col items-start justify-around mx-auto mb-[50px]'>
         <div className='flex gap-5'>
