@@ -4,10 +4,7 @@ export interface Props {
 }
 const { title } = Astro.props;
 import '@fontsource/source-sans-pro';
-// import Contact from '../components/Contact.jsx';
-import Divider from '../components/Divider.astro';
 import Header from '../components/Header';
-import NavMobile from '../components/Nav-mobile.astro';
 import Footer from '../components/Footer';
 ---
 
@@ -23,9 +20,7 @@ import Footer from '../components/Footer';
 		<title>{title}</title>
 	</head>
 	<body>
-		<Header client:load>
-			<!-- <NavMobile/> -->
-		</Header>
+		<Header client:load />
 		<slot />
 		<Footer/>
 	</body>
