@@ -1,10 +1,35 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Nav from '../components/Nav-mobile.astro';
+import Header from '../components/Header';
+import '../components/GlobalStyles.astro'
+import Divider from '../components/Divider.astro';
+
 ---
 
-<Layout title="Welcome to Astro.">
+
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Cinthia Nadim Juarez</title>
+		<meta name="description" content="Terapia Psicológica" />
+	</head>
+	<body>
+		<Header  client:load>
+			<Nav/>
+		</Header>
+		<h2>HOLA</h2>
+		<Divider/>
+
+	</body>
+</html>
+
+<!-- <Layout title="Welcome to Astro.">
 	<main>
+		<Nav/>
 		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.<br />
@@ -32,10 +57,11 @@ import Card from '../components/Card.astro';
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
 		</ul>
+		<div id="box" class='h-12 w-12 bg-secondary mt-[1000px] mb-[1000px]'></div>
 	</main>
-</Layout>
+</Layout> -->
 
-<style>
+<!-- <style>
 	main {
 		margin: auto;
 		padding: 1.5rem;
@@ -78,4 +104,4 @@ import Card from '../components/Card.astro';
 		gap: 1rem;
 		padding: 0;
 	}
-</style>
+</style> -->

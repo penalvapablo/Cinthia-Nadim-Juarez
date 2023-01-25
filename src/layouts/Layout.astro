@@ -2,12 +2,19 @@
 export interface Props {
 	title: string;
 }
-
 const { title } = Astro.props;
+import '@fontsource/source-sans-pro';
+// import Contact from '../components/Contact.jsx';
+import Divider from '../components/Divider.astro';
+import Header from '../components/Header';
+import NavMobile from '../components/Nav-mobile.astro';
+import Footer from '../components/Footer';
 ---
 
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
@@ -16,7 +23,11 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
+		<Header client:load>
+			<NavMobile/>
+		</Header>
 		<slot />
+		<Footer/>
 	</body>
 </html>
 <style is:global>
@@ -26,7 +37,8 @@ const { title } = Astro.props;
 	}
 	html {
 		font-family: system-ui, sans-serif;
-		background-color: #F6F6F6;
+		background-color: #5B4974;
+		scroll-behavior: smooth;
 	}
 	code {
 		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
