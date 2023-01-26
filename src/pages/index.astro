@@ -1,8 +1,9 @@
 ---
-import Nav from '../components/Nav-mobile.astro';
-import Header from '../components/Header';
+
 import '../components/GlobalStyles.astro'
-import Divider from '../components/Divider.astro';
+import Footer from '../components/Footer';
+import Consulta from '../components/Consulta.astro';
+import Hero from '../components/Hero';
 
 ---
 
@@ -18,14 +19,16 @@ import Divider from '../components/Divider.astro';
 		<meta name="description" content="Terapia Psicológica" />
 	</head>
 	<body>
-		<Header  client:load>
-			<Nav/>
-		</Header>
-		<h2>HOLA</h2>
-		<Divider/>
-
+		<Hero client:load />
+		<Consulta/>
+		<Footer/>
 	</body>
 </html>
+<style>
+	html{
+		scroll-behavior: smooth;
+	}
+</style>
 
 <!-- <Layout title="Welcome to Astro.">
 	<main>
