@@ -11,9 +11,9 @@ const Footer = () => {
       <div className='w-fit h-[200px] flex flex-col items-start justify-around mx-auto mb-[50px]'>
         <div className='flex gap-5'>
           <FontAwesomeIcon icon={faPhone} className='h-[40px] text-secondary text-end justify-items-end' />
-          <button className='text-secondary text-paragraph font-sans font-semibold'>
+          <p className='text-secondary text-paragraph font-sans font-semibold'>
             +34607548117
-          </button>
+          </p>
         </div>
         <div className='flex gap-5'>
           <FontAwesomeIcon icon={faWhatsapp} className='h-[40px] text-secondary text-end justify-items-end' />
@@ -24,9 +24,9 @@ const Footer = () => {
         </div>
         <div className='flex gap-5'>
           <FontAwesomeIcon icon={faEnvelope} className='h-[40px] text-secondary text-end justify-items-end' />
-          <button className='text-secondary text-paragraph font-sans font-semibold'>
+          <p className='text-secondary text-paragraph font-sans font-semibold'>
             cinthnadim@gmail.com
-          </button>
+          </p>
         </div>
       </div>
       <p className='text-secondary text-[12px] text-center'>Todos los derechos reservados 2022 - Cinthia Nadim Juarez</p>
