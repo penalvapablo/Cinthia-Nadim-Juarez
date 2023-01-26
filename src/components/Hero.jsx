@@ -19,7 +19,7 @@ const Hero = () => {
             <p className="lg:text-[22px]">Este es el sitio para ti.</p>
 
             <button className="text-primary bg-secondary text-[25px] font-bold py-2 px-20 rounded-[15px] shadow-btn">
-              <a href="">
+              <a href="#contacto">
                 Hablemos
               </a>
             </button>

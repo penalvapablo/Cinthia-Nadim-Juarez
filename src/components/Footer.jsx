@@ -18,7 +18,8 @@ const Footer = () => {
         <div className='flex gap-5'>
           <FontAwesomeIcon icon={faWhatsapp} className='h-[40px] text-secondary text-end justify-items-end' />
           <button className='text-secondary text-paragraph font-sans font-semibold'>
-            +34607548117
+            <a href='https://api.whatsapp.com/send?phone=491785279833' rel='noreferrer' target="_blank">+34607548117</a>
+
           </button>
         </div>
         <div className='flex gap-5'>
