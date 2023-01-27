@@ -23,7 +23,7 @@ const Header = ({ isInHomepage, heroTextBoxFn }) => {
       <Nav isInHomepage={isInHomepage} />
       <div className='relative z-10 lg:hidden'>
         <div id='burger' className='absolute top-7 right-10 '>
-          <button onClick={mobileNavFn}>
+          <button id="burger menu" onClick={mobileNavFn} >
             <FontAwesomeIcon icon={faBars} className='h-[30px] text-primary text-end justify-items-end' />
           </button>
         </div>
