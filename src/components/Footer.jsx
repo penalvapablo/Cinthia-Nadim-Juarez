@@ -12,13 +12,13 @@ const Footer = () => {
         <div className='flex gap-5 items-center'>
           <FontAwesomeIcon icon={faPhone} className='h-[40px] text-secondary text-end justify-items-end' />
           <p className='text-secondary text-paragraph font-sans font-semibold'>
-            +34607548117
+            +491785279833
           </p>
         </div>
         <div className='flex gap-5 items-center'>
           <FontAwesomeIcon icon={faWhatsapp} className='h-[40px] text-secondary text-end justify-items-end' />
           <button className='text-secondary text-paragraph font-sans font-semibold '>
-            <a href='https://api.whatsapp.com/send?phone=491785279833' rel='noreferrer' target="_blank" className='hover:text-[20px] duration-100'>+34607548117</a>
+            <a href='https://api.whatsapp.com/send?phone=491785279833' rel='noreferrer' target="_blank" className='hover:text-[20px] duration-100'>+491785279833</a>
 
           </button>
         </div>
