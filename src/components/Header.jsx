@@ -15,7 +15,7 @@ const Header = ({ isInHomepage, heroTextBoxFn }) => {
 
   // Preven scrolling when mobile nav activated
   if (typeof window !== "undefined") {
-    console.log(document.body); mobileNav ? document.body.style.overflow = "hidden" : document.body.style.overflow = 'auto'
+    mobileNav ? document.body.style.overflow = "hidden" : document.body.style.overflow = 'auto'
   }
 
   return (
@@ -23,7 +23,7 @@ const Header = ({ isInHomepage, heroTextBoxFn }) => {
       <Nav isInHomepage={isInHomepage} />
       <div className='relative z-10 lg:hidden'>
         <div id='burger' className='absolute top-7 right-10 '>
-          <button id="burger menu" onClick={mobileNavFn} >
+          <button id="burger menu" aria-label="burger menu" onClick={mobileNavFn} >
             <FontAwesomeIcon icon={faBars} className='h-[30px] text-primary text-end justify-items-end' />
           </button>
         </div>

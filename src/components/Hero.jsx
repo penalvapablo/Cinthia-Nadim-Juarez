@@ -9,7 +9,7 @@ const Hero = () => {
   }
   return (
     <>
-      <div className="min-h-[600px] h-[100vh] bg-[url('/bg-mobile.jpg')] lg:bg-[url('/bg-desktop.jpg')] relative bg-center bg-no-repeat bg-cover ">
+      <div className="min-h-[600px] h-[100vh] bg-[url('/bg-mobile.webp')] lg:bg-[url('/bg-desktop2.webp')] relative bg-center bg-no-repeat bg-cover lg:min-h-[900px] ">
         <Header isInHomepage={true} heroTextBoxFn={heroTextBoxFn} />
         <h1 className="font-sans text-title_m md:text-title_d font-black text-primary text-center top-[100px] pb-12 tracking-wide leading-[45px] md:leading-[60px] absolute left-1/2  translate-x-[-50%] w-[325px] md:w-[500px] xl:w-[800px] xl:top-[170px] lg:top-[150px]">Cinthia <br className="lg:hidden" /> Nadim Juarez</h1>
         {heroTextBox &&

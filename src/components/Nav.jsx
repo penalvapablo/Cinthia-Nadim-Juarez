@@ -5,7 +5,7 @@ const Nav = ({ isInHomepage }) => {
     <>
       {
         isInHomepage ?
-          <nav className='max-[1024px]:hidden w-[800px] pt-[50px] mx-auto '>
+          <nav className='max-[1023px]:hidden w-[800px] pt-[50px] mx-auto '>
             < ul className="flex justify-between" >
               <li><a className="text-secondary font-sans font-bold text-navLinks" href="/">Inicio</a></li>
               <li><a className="text-secondary font-sans font-bold text-navLinks" href="/#consulta">Consulta</a></li>
@@ -15,7 +15,7 @@ const Nav = ({ isInHomepage }) => {
               <li><a className="text-secondary font-sans font-bold text-navLinks" href="#contacto">Contacto</a></li>
             </ul>
           </nav > :
-          <nav className='max-[1024px]:hidden h-[130px]  bg-primary'>
+          <nav className='max-[1023px]:hidden h-[130px]  bg-primary'>
             <ul className="w-[800px] mx-auto h-[100%]  flex justify-between items-center">
               <li><a className="text-secondary font-sans font-bold text-navLinks" href="/">Inicio</a></li>
               <li><a className="text-secondary font-sans font-bold text-navLinks" href="/#consulta">Consulta</a></li>
