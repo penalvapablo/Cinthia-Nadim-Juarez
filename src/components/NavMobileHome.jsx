@@ -2,8 +2,6 @@
 
 const NavMobile2 = ({ mobileNavFn }) => {
   return (
-
-    // <nav class="bg-secondary h-[50%] flex items-center justify-center ">
     <nav className="h-screen flex items-center justify-center ">
       <ul className="h-[100%] max-h-[300px] flex flex-col items-center text-center justify-around">
         <li><a className="text-primary font-sans font-bold text-navLinks" href="/">Inicio</a></li>
