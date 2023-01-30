@@ -18,7 +18,7 @@ const Hero = () => {
             <p className="lg:text-[22px]">¿Eres hispanohablante y buscas una persona que comparta tus costumbres y comprenda desde adentro tu cultura y tus orígenes?</p>
             <p className="lg:text-[22px]">Este es el sitio para ti.</p>
 
-            <button className="text-primary bg-secondary text-[25px] font-bold py-2 px-20 rounded-[15px] shadow-btn">
+            <button className="text-primary bg-secondary text-[25px] font-bold py-2 px-20 rounded-[15px] shadow-btn  hover:bg-primary  hover:text-secondary duration-300 ">
               <a href="#contacto">
                 Hablemos
               </a>
