@@ -1,38 +1,60 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
-    <footer id='contacto' className=" bg-primary">
-      <h2 className="font-sans text-title_m text-secondary font-bold text-center pt-[30px] pb-12 tracking-wide">Contacto</h2>
-      <div className='w-fit h-[200px] flex flex-col items-start justify-around mx-auto mb-[50px]'>
-        <div className='flex gap-5 items-center'>
-          <FontAwesomeIcon icon={faPhone} className='h-[40px] text-secondary text-end justify-items-end' />
-          <p className='text-secondary text-paragraph font-sans font-semibold'>
+    <footer
+      id="contacto"
+      className=" bg-primary"
+    >
+      <h2 className="pt-[30px] pb-12 text-center font-sans text-title_m font-bold tracking-wide text-secondary">
+        Contacto
+      </h2>
+      <div className="mx-auto mb-[50px] flex h-[200px] w-fit flex-col items-start justify-around">
+        <div className="flex items-center gap-5">
+          <FontAwesomeIcon
+            icon={faPhone}
+            className="h-[40px] justify-items-end text-end text-secondary"
+          />
+          <p className="font-sans text-paragraph font-semibold text-secondary">
             +491785279833
           </p>
         </div>
-        <div className='flex gap-5 items-center'>
-          <FontAwesomeIcon icon={faWhatsapp} className='h-[40px] text-secondary text-end justify-items-end' />
-          <button className='text-secondary text-paragraph font-sans font-semibold '>
-            <a href='https://api.whatsapp.com/send?phone=491785279833' rel='noreferrer' target="_blank" className='hover:text-[20px] duration-100'>+491785279833</a>
-
+        <div className="flex items-center gap-5">
+          <FontAwesomeIcon
+            icon={faWhatsapp}
+            className="h-[40px] justify-items-end text-end text-secondary"
+          />
+          <button className="font-sans text-paragraph font-semibold text-secondary ">
+            <a
+              href="https://api.whatsapp.com/send?phone=491785279833"
+              rel="noreferrer"
+              target="_blank"
+              className="duration-100 hover:text-[20px]"
+            >
+              +491785279833
+            </a>
           </button>
         </div>
-        <div className='flex gap-5 items-center'>
-          <FontAwesomeIcon icon={faEnvelope} className='h-[40px] text-secondary text-end justify-items-end' />
-          <p className='text-secondary text-paragraph font-sans font-semibold '>
+        <div className="flex items-center gap-5">
+          <FontAwesomeIcon
+            icon={faEnvelope}
+            className="h-[40px] justify-items-end text-end text-secondary"
+          />
+          <p className="font-sans text-paragraph font-semibold text-secondary ">
             cinthnadim@gmail.com
           </p>
         </div>
       </div>
-      <p className='text-secondary text-[12px] text-center'>Todos los derechos reservados 2022 - Cinthia Nadim Juarez</p>
+      <p className="text-center text-[12px] text-secondary">
+        Todos los derechos reservados 2022 - Cinthia Nadim
+        Juarez
+      </p>
     </footer>
+  );
+};
 
-  )
-}
-
-export default Footer
+export default Footer;
