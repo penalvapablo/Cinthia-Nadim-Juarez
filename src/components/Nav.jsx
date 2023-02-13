@@ -9,48 +9,42 @@ const Nav = ({ isInHomepage }) => {
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary duration-300 hover:text-primary "
-                href="/"
-              >
+                href="/">
                 Inicio
               </a>
             </li>
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary duration-300 hover:text-primary"
-                href="/#consulta"
-              >
+                href="/#consulta">
                 Consulta
               </a>
             </li>
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary duration-300 hover:text-primary"
-                href="/about"
-              >
+                href="/about">
                 Sobre mi
               </a>
             </li>
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary duration-300 hover:text-primary"
-                href="/metodo"
-              >
+                href="/metodo">
                 Método
               </a>
             </li>
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary duration-300 hover:text-primary"
-                href="/preguntas"
-              >
+                href="/preguntas">
                 Preguntas Frecuentes
               </a>
             </li>
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary duration-300 hover:text-primary"
-                href="#contacto"
-              >
+                href="#contacto">
                 Contacto
               </a>
             </li>
@@ -62,48 +56,42 @@ const Nav = ({ isInHomepage }) => {
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary"
-                href="/"
-              >
+                href="/">
                 Inicio
               </a>
             </li>
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary"
-                href="/#consulta"
-              >
+                href="/#consulta">
                 Consulta
               </a>
             </li>
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary"
-                href="/about"
-              >
+                href="/about">
                 Sobre mi
               </a>
             </li>
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary"
-                href="/metodo"
-              >
+                href="/metodo">
                 Método
               </a>
             </li>
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary"
-                href="/preguntas"
-              >
+                href="/preguntas">
                 Preguntas Frecuentes
               </a>
             </li>
             <li>
               <a
                 className="font-sans text-navLinks font-bold text-secondary"
-                href="#contacto"
-              >
+                href="#contacto">
                 Contacto
               </a>
             </li>
