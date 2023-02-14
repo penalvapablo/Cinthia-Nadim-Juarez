@@ -23,10 +23,10 @@ const Header = ({ isInHomepage, heroTextBoxFn }) => {
   return (
     <>
       <Nav isInHomepage={isInHomepage} />
-      <div className="relative z-10 lg:hidden">
+      <div className="relative z-20 lg:hidden">
         <div
           id="burger"
-          className="absolute top-7 right-10 ">
+          className="landscape: absolute top-7 right-10">
           <button
             id="burger menu"
             aria-label="burger menu"
