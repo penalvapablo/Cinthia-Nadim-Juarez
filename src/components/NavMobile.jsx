@@ -6,14 +6,14 @@ const NavMobile = ({ mobileNavFn, isInHomepage }) => {
           <ul className="absolute top-[45%] flex h-[100%] max-h-[300px] flex-col items-center justify-around  text-center md:top-[50%] landscape:top-[10%]">
             <li>
               <a
-                className="text-2xl text-primary"
+                className="text-xl text-primary"
                 href="/">
                 Inicio
               </a>
             </li>
             <li>
               <a
-                className="text-2xl text-primary "
+                className="text-xl text-primary "
                 href="/#consulta"
                 onClick={mobileNavFn}>
                 Consulta
@@ -21,28 +21,28 @@ const NavMobile = ({ mobileNavFn, isInHomepage }) => {
             </li>
             <li>
               <a
-                className="text-2xl text-primary "
+                className="text-xl text-primary "
                 href="/about">
                 Sobre mi
               </a>
             </li>
             <li>
               <a
-                className="text-2xl text-primary "
+                className="text-xl text-primary "
                 href="/metodo">
                 Método
               </a>
             </li>
             <li>
               <a
-                className="text-2xl text-primary "
+                className="text-xl text-primary "
                 href="/preguntas">
                 Preguntas Frecuentes
               </a>
             </li>
             <li>
               <a
-                className="text-2xl text-primary "
+                className="text-xl text-primary "
                 href="#contacto"
                 onClick={mobileNavFn}>
                 Contacto
@@ -55,14 +55,14 @@ const NavMobile = ({ mobileNavFn, isInHomepage }) => {
           <ul className="flex h-[100%] max-h-[300px] flex-col items-center justify-around text-center">
             <li>
               <a
-                className="text-2xl text-primary"
+                className="text-xl text-primary"
                 href="/">
                 Inicio
               </a>
             </li>
             <li>
               <a
-                className="text-2xl text-primary "
+                className="text-xl text-primary "
                 href="/#consulta"
                 onClick={mobileNavFn}>
                 Consulta
@@ -70,28 +70,28 @@ const NavMobile = ({ mobileNavFn, isInHomepage }) => {
             </li>
             <li>
               <a
-                className="text-2xl text-primary "
+                className="text-xl text-primary "
                 href="/about">
                 Sobre mi
               </a>
             </li>
             <li>
               <a
-                className="text-2xl text-primary "
+                className="text-xl text-primary "
                 href="/metodo">
                 Método
               </a>
             </li>
             <li>
               <a
-                className="text-2xl text-primary "
+                className="text-xl text-primary "
                 href="/preguntas">
                 Preguntas Frecuentes
               </a>
             </li>
             <li>
               <a
-                className="text-2xl text-primary "
+                className="text-xl text-primary "
                 href="#contacto"
                 onClick={mobileNavFn}>
                 Contacto

@@ -8,7 +8,7 @@ const Hero = () => {
   };
   return (
     <>
-      <div className="relative h-[100vh] min-h-[600px] bg-[url('/bg-mobile.jpg')] bg-cover bg-center bg-no-repeat lg:min-h-[900px] lg:bg-[url('/bg-desktop.jpg')] landscape:h-[screen] landscape:min-h-[900px] ">
+      <div className="relative h-screen min-h-[600px] bg-[url('/bg-mobile.jpg')] bg-cover bg-center bg-no-repeat lg:bg-[url('/bg-desktop.jpg')] ">
         <Header
           isInHomepage={true}
           heroTextBoxFn={heroTextBoxFn}
@@ -22,20 +22,20 @@ const Hero = () => {
             className={
               'absolute top-[45%] left-1/2 flex h-[50%] max-h-[400px] w-[90%] translate-x-[-50%] flex-col items-center justify-between text-center sm:top-[50%] lg:top-[65%] landscape:top-[45%]  '
             }>
-            <p className="text-lg md:text-2xl">
+            <p className="text-lg md:text-xl">
               ¿Necesitas atencion psicológica con una
               persona que hable tu mismo idioma?
             </p>
-            <p className="text-lg md:text-2xl">
+            <p className="text-lg md:text-xl">
               ¿Eres hispanohablante y buscas una persona que
               comparta tus costumbres y comprenda desde
               adentro tu cultura y tus orígenes?
             </p>
-            <p className="pb-7 text-lg md:text-2xl">
+            <p className="pb-7 text-lg md:text-xl">
               Este es el sitio para ti.
             </p>
 
-            <button className="rounded-[15px] bg-secondary py-2 px-20 text-2xl text-primary shadow-btn  duration-300  hover:bg-primary hover:text-secondary ">
+            <button className="rounded-[15px] bg-secondary py-2 px-20 text-xl text-primary shadow-btn  duration-300  hover:bg-primary hover:text-secondary ">
               <a href="#contacto">Hablemos</a>
             </button>
           </div>
