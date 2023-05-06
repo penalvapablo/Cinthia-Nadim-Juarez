@@ -51,9 +51,20 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <p className="text-center text-xs text-secondary">
-        Todos los derechos reservados 2022 - Cinthia Nadim
-        Juarez
+      <p className="pb-1 text-center text-xs text-secondary">
+        Todos los derechos reservados 2022
+        <br className="sm:hidden" />
+        <span className="hidden sm:inline"> - </span>
+        Cinthia Nadim Juarez <br className="sm:hidden" />{' '}
+        <span className="hidden sm:inline"> - </span>{' '}
+        Desarrollado por{' '}
+        <a
+          href="https://penalva-portfolio.vercel.app/"
+          target="_blank"
+          aria-label="link a portfolio"
+          className="border-b">
+          Pablo
+        </a>
       </p>
     </footer>
   );
