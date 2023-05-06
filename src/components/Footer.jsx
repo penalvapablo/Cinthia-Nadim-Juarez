@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="pb-1 text-center text-xs text-secondary">
-        Todos los derechos reservados 2022
+        Todos los derechos reservados 2023
         <br className="sm:hidden" />
         <span className="hidden sm:inline"> - </span>
         Cinthia Nadim Juarez <br className="sm:hidden" />{' '}
