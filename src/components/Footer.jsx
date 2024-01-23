@@ -47,7 +47,7 @@ const Footer = () => {
             className="h-[40px] justify-items-end text-end text-secondary"
           />
           <p className="text-xl text-secondary ">
-            cinthianadim@gmail.com
+            cinthnadim@gmail.com
           </p>
         </div>
       </div>
