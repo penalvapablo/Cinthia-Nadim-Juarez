@@ -1,92 +1,94 @@
 ---
-import H2 from '../components/h2.astro';
-import Layout from '../layouts/Layout.astro';
-import '../components/GlobalStyles.astro';
-import Divider from '../components/Divider.astro';
+import H2 from "../components/h2.astro";
+import Layout from "../layouts/Layout.astro";
+import "../components/GlobalStyles.astro";
+import Divider from "../components/Divider.astro";
+import cinthia from "../assets/cinthia.jpg";
 ---
 
 <Layout title="Sobre mi">
-  <main
-    class="relative bg-secondary pt-[20px] pb-[100px] md:pb-[200px]">
+  <main class="relative bg-secondary pt-[20px] pb-[100px] md:pb-[200px]">
     <H2 title="Sobre mi" />
     <p>
-      Hola, soy Cinthia, licenciada en psicología graduada
-      en la Universidad Católica de Argentina con postgrado
-      en Evaluación y Diagnostico Neuropsicológico y
-      Diplomatura en Consumo Problemático de Sustancias.
+      Hola, soy Cinthia, licenciada en psicología graduada en la Universidad
+      Católica de Argentina con postgrado en Evaluación y Diagnostico
+      Neuropsicológico y Diplomatura en Consumo Problemático de Sustancias.
+    </p>
+    <br />
+    <div class="mx-auto my-2 h-fit max-w-[500px] px-4">
+      <img src={cinthia} alt="Cinthia" />
+    </div>
+    <br />
+    <p>
+      Mis inicios en el campo del saber profesional transcurrieron en diferentes
+      instituciones públicas y privadas, asociaciones civiles sin fines de
+      lucro, fundaciones y ONG (Organizaciones No Gubernamentales), en la cuales
+      trabajé sobre distintas enfermedades neurodegenerativas, malformaciones
+      congénitas, adicciones al juego, cocaína, alcohol y otras sustancias
+      psicoactivas. Los años de ejercicio profesional me permitieron adquirir
+      las herramientas necesarias para desarrollarme en el campo de la
+      psicología, ya sea en forma unipersonal o de manera interdisciplinaria con
+      ciencias afines. De igual manera, realicé aportes profesionales en casos
+      judiciales a través de peritajes, autopsias psicológicas, perfilamiento
+      criminal y evaluaciones y diagnósticos neuropsicológicos, todo lo cual
+      significo ampliar la casuística y experiencia profesionales.
     </p>
     <br />
     <p>
-      Mis inicios en el campo del saber profesional
-      transcurrieron en diferentes instituciones públicas y
-      privadas, asociaciones civiles sin fines de lucro,
-      fundaciones y ONG (Organizaciones No Gubernamentales),
-      en la cuales trabajé sobre distintas enfermedades
-      neurodegenerativas, malformaciones congénitas,
-      adicciones al juego, cocaína, alcohol y otras
-      sustancias psicoactivas. Los años de ejercicio
-      profesional me permitieron adquirir las herramientas
-      necesarias para desarrollarme en el campo de la
-      psicología, ya sea en forma unipersonal o de manera
-      interdisciplinaria con ciencias afines. De igual
-      manera, realicé aportes profesionales en casos
-      judiciales a través de peritajes, autopsias
-      psicológicas, perfilamiento criminal y evaluaciones y
-      diagnósticos neuropsicológicos, todo lo cual significo
-      ampliar la casuística y experiencia profesionales.
-    </p>
-    <br />
-    <p>
-      Mi objetivo es reinventarme continuamente a fin de
-      estar a la altura de profesionales destacados que
-      realizan su labor con compromiso y responsabilidad
-      ética, lo que motiva siempre la búsqueda de nuevos
+      Mi objetivo es reinventarme continuamente a fin de estar a la altura de
+      profesionales destacados que realizan su labor con compromiso y
+      responsabilidad ética, lo que motiva siempre la búsqueda de nuevos
       conocimientos y la formación continua.
     </p>
     <br />
     <p>
-      Si quieres saber un poco más de mí, aquí te dejo
-      algunos datos adicionales:
+      Si quieres saber un poco más de mí, aquí te dejo algunos datos
+      adicionales:
     </p>
     <br />
     <ul>
       <li
-        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary">
+        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary"
+      >
         Disfruto los atardeceres con una buena música.
       </li>
       <li
-        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary">
+        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary"
+      >
         Amante de los libros, novelas y documentales.
       </li>
       <li
-        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary">
-        El mejor plan siempre es una comida casera rodeada
-        de afectos y risas de mis seres queridos.
+        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary"
+      >
+        El mejor plan siempre es una comida casera rodeada de afectos y risas de
+        mis seres queridos.
       </li>
       <li
-        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary">
+        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary"
+      >
         Leonina: pasional, orgullosa y exigente.
       </li>
       <li
-        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary">
-        Mente inquieta, siempre buscando nuevos retos y
-        vivir diferentes experiencias.
+        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary"
+      >
+        Mente inquieta, siempre buscando nuevos retos y vivir diferentes
+        experiencias.
       </li>
       <li
-        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary">
-        Amante de los viajes, los idiomas y las culturas.
-        Curiosa por naturaleza, con espíritu explorador
+        class="mx-auto w-[85%] max-w-[700px] list-disc text-[18px] text-primary"
+      >
+        Amante de los viajes, los idiomas y las culturas. Curiosa por
+        naturaleza, con espíritu explorador
       </li>
     </ul>
     <br />
     <p>
-      Si quieren conocer mi perfil profesional de forma
-      detallada, puede hacerlo a través de mi cuenta de <a
+      Si quieren conocer mi perfil profesional de forma detallada, puede hacerlo
+      a través de mi cuenta de <a
         href="https://www.linkedin.com/in/cinthia-nadim-ju%C3%A1rez-v%C3%A9lez-936690134/"
         rel="noreferrer"
         target="_blank"
-        class="underline"
-        >LINKEDIN</a
+        class="underline">LINKEDIN</a
       >
     </p>
     <Divider />
