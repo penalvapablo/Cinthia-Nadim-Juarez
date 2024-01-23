@@ -8,7 +8,7 @@ const Hero = () => {
   };
   return (
     <>
-      <div className="relative h-[100dvh] min-h-[600px] bg-[url('/bg-mobile.jpg')] bg-cover bg-center bg-no-repeat lg:bg-[url('/bg-desktop.jpg')] ">
+      <div className="relative h-screen min-h-[600px] bg-[url('/bg-mobile.jpg')] bg-cover bg-center bg-no-repeat lg:bg-[url('/bg-desktop.jpg')] ">
         <Header
           isInHomepage={true}
           heroTextBoxFn={heroTextBoxFn}
